@@ -13,6 +13,8 @@ Live Demo : https://vue-chat-19e82.web.app/chat
 ```
 npm install
 
+```
+
 ![alt text](http://www.mediafire.com/convkey/37c4/b50nwd5ta2brnofzg.jpg?size_id=f)
 
 ![alt text](http://www.mediafire.com/convkey/e209/7yh717vn3ov6abszg.jpg?size_id=a)
@@ -20,7 +22,7 @@ npm install
 ![alt text](http://www.mediafire.com/convkey/cead/2peci8jpb4rhgpdzg.jpg?size_id=a)
 
 ![alt text](http://www.mediafire.com/convkey/29f0/e3l3v0cjuh8cvn8zg.jpg?size_id=a)
-```
+
 
 ### Compiles and hot-reloads for development
 ```
