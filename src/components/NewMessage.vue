@@ -42,9 +42,9 @@ export default {
   data() {
     return {
       newMessage: "",
-      feedback: null,
-      emojiShow: false,
-      audioSent: null,
+      feedback: null, // For Message Validation
+      emojiShow: false, // To Show/Hide Emoji Picker
+      audioSent: null, // To Play Sent Notificaton Sound
     };
   },
   components: {

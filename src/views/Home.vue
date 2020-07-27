@@ -40,18 +40,14 @@ export default {
     msg: String,
   },
   methods: {
-    /* Check User Entered Name or Not */
     enterChat() {
-      let pattern = "^[a-zA-Z]([._-]?[a-zA-Z0-9]+)*$"; // REGEX Pattern
-      let validName = this.name.match(pattern); // Checking Name Starts wih Alphabet
-
-      if (validName !== null) {
+      /* Check Name is valid or not */
+      if (this.name && this.name.slice(0, 3).match("^[a-zA-Z]{3}$")) {
         this.$router.push({ name: "Chat", params: { name: this.name } });
       } else {
         this.feedback = "You must enter a valid name to join.";
       }
     },
-    /* Check User Entered Name or Not */
   },
 };
 </script>

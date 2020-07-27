@@ -36,7 +36,7 @@ import Vue from "vue";
 import linkify from "vue-linkify"; // Package, Detects URLs in a String
 Vue.directive("linkified", linkify);
 
-import axios from "axios"; // Package, To Play with HTTP Requests
+// import axios from "axios"; // Package, To Play with HTTP Requests
 
 export default {
   name: "Chat",
@@ -46,7 +46,7 @@ export default {
   data() {
     return {
       messages: [],
-      audioReceived: null, // Sound
+      audioReceived: null, // To Play Received Notificaton Sound
     };
   },
   props: ["name"],
@@ -90,13 +90,13 @@ export default {
     this.audioReceived = new Audio("/media/received.85cadaaa.mp3");
 
     /* To get URL Preview (Pending Task)*/
-    let url = "http://api.linkpreview.net/?key=12345&q=https://www.google.com";
-    axios
-      .get(url)
-      .then((res) => console.table(res.data))
-      .catch((err) => console.log(err));
+    //     let url = "http://api.linkpreview.net/?key=12345&q=https://www.google.com";
+    //     axios
+    //       .get(url)
+    //       .then((res) => console.table(res.data))
+    //       .catch((err) => console.log(err));
+    /* To get URL Preview (Pending Task)*/
   },
-  /* To get URL Preview (Pending Task)*/
 };
 </script>
 
