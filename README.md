@@ -6,14 +6,9 @@ Live Demo : https://vue-chat-19e82.web.app/chat
 
 <b>Setup</b>
 
-        Add Firebase Project keys in Environment.ts and prod
-        Add TMDB API Key in movie.service.ts
+        Add Firebase Project keys in init.js
         npm install
-        ng serve
-```
-npm install
-
-```
+        npm run serve
 
 ![alt text](http://www.mediafire.com/convkey/37c4/b50nwd5ta2brnofzg.jpg?size_id=f)
 
